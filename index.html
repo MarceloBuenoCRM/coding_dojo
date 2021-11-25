@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Google</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Google</title>
+    </head>
     <body>  
-        <header>
-            <div class="menu">
+        <header class="menu">
+            <div class="navbar">
                 <nav class="espacos">
-                <a href="#" >Gmail </a>
-                <a href="#">Imagens</a>  
-                    <a href="#">menu</a>
+                    <a href="#" >Gmail </a>
+                    <a href="#">Imagens</a>  
+                    <a href="#">Menu</a>
                     <div class="bola"></div>       
                 </nav>
             </div>
         </header>
-
-
-
-        <section class="principal">
-            <div class="google">
-                <h1>google</h1>
+        <main>
+            <section class="principal">
+                <div class="google">
+                    <img src="https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="">
+                </div><br>
+                <div class="pesquisa">
+                    <span class="lupa">
+                        🔍
+                    </span>
+                    <input  class="input" type="text"  > 
+                    <span class="direito">
+                        ⌨️🎙️
+                    </span>
+                </div>
+                <div class="botoes">
+                    <button class="pesquisar">Pesquisa Google</button>
+                    <button class="sorte">Estou com Sorte</button>
+                </div>
+            </section>
+        </main>     
+        <footer class="rodape">
+            <div class="brasil">
+                Brasil
+            </div> 
+            <div class="links">
+                <a href="">Sobre</a>
+                <a href="">Publicidade</a>
+                <a href="">Negocios</a>
+                <a href="">Como Funciona a Pesquisa</a>
             </div>
-            <div class="pesquisa">
-                <input type="text"> 
+            <div class="links">
+                <a href="">Privacidade</a>
+                <a href="">Termos</a>
+                <a href="">Configuraçoes</a>
             </div>
-            <button class="pesquisar">pesquisa</button>
-            <button class="sorte">estou com sorte</button>
-        </section>
-
+        </footer>
     </body>
 </html>
