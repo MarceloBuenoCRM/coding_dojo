@@ -1,1 +1,1 @@
-# Coding Dojo - HTML/CSS
+# Coding Dojo - HTML/CSS/JS
