@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 15px;
+}
+
+.contador {
+    border:1px solid #000;
+    max-width: 50vw;
+    height: 35vh;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10%;
+
+    
+}
+
+.contador input {
+    
+   
+    margin-top: 20px;
+    
+}
